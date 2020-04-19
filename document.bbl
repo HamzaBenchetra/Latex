@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+
+\bibitem{PHD:rssi}
+M.~J. Maceraudi, {\em Algorithmes de radiolocalisation et traitements adaptés
+  à une architecture de récepteur IR-UWB intégrée}.
+\newblock PhD thesis, UNIVERSITÉ DE RENNES 1, 2017.
+
+\bibitem{rtls}
+\url{https://www.phidata.be/fr/technologies/real_time_location_systems/}.
+
+\bibitem{gps}
+H.~C. Kaplan~E.D, {\em C. Understanding GPS: Principles and Applications, 2nd
+  ed}.
+\newblock Artech House: Norwood, MA, USA, 2006.
+
+\bibitem{uwb}
+X.~Weihua~Zhuang, {\em Centre for Wireless Communications (CWC)}.
+\newblock Department of Electrical and Computer Engineering, University of
+  Waterloo.
+
+\bibitem{bluetooth}
+J.~Haartsen, ``Bluetooth - the universal radio interface for ad hoc, wireless
+  connectivity,'' {\em Ericsson review}, vol.~75, pp.~110--117, 01 1998.
+
+\bibitem{rfid}
+\url{https://fr.wikipedia.org/wiki/Radio-identification}.
+
+\bibitem{trilateration}
+A.~D. C.~L. Zhao~K., Li~B., {\em A Comparison of algorithms adopted in
+  fingerprinting indoor positioning systems}.
+\newblock Outrigger Gold Coast, Australia, 2013.
+
+\bibitem{navigation}
+R.~Elaire, {\em conception et développement d'une application de
+  géolocalisation indoor}.
+\newblock PhD thesis, Université de la Manouba, 2014.
+
+\bibitem{transport}
+\url{https://www.ikomobi.com/la-geolocalisation-indoor-un-enjeu-mobile}.
+
+\bibitem{dead}
+L.~Ojeda and J.~Borenstein, ``Personal dead-reckoning system for gps-denied
+  environments,'' pp.~1 -- 6, 10 2007.
+
+\bibitem{magnet}
+C.~Galván~Tejada, J.~García-Vázquez, and R.~Brena, ``Magnetic field feature
+  extraction and selection for indoor location estimation,'' {\em Sensors},
+  vol.~14, pp.~11001--11015, 06 2014.
+
+\bibitem{WEBSITE:2}
+``Gps en interieur à l'aeroport de londres-gatewick.''
+  \url{https://www.directioninformatique.com/un-gps-interieur-a-laeroport-de-londres-gatwick/49260}.
+\newblock Consulté le 2020-03-25.
+
+\bibitem{WEBSITE:3}
+``Hypermarché carrefour westfield euralille lille, france.''
+  \url{https://www.ictjournal.ch/news/2015-10-20/carrefour-guide-ses-clients-grace-a-la-geolocalisation-par-led}.
+\newblock Consulté le 2020-03-25.
+
+\end{thebibliography}

@@ -1,0 +1,99 @@
+\babel@toc {french}{}
+\contentsline {part}{I\hspace {1em}État de l'art.}{4}{part.1}%
+\contentsline {chapter}{\numberline {1}Étude sur le positionnement en intérieur.}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Historique}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Définitions et terminologie }{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Géolocalisation par satellites}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}RSSI (Received Signal Strength Indication)}{6}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}RTLS}{6}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}GPS: GLOBAL Positioning System}{6}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Ultra Wide Band (UWB)}{7}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Bluetooth}{7}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}Wifi}{7}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}Wlan}{7}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}Radio-identification}{7}{subsection.1.3.9}%
+\contentsline {subsection}{\numberline {1.3.10}Trilatération}{7}{subsection.1.3.10}%
+\contentsline {section}{\numberline {1.4}Domaines d’application des systèmes de positionnement en intérieur}{8}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Aide à la navigation}{8}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Transport}{8}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Supermarchés et Hypermarchés}{8}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Marketing}{8}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Technologies utilisées}{8}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Les technologies autonomes}{9}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Les technologies basées sur une infrastructure}{10}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Synthèse des technologies}{12}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}Localisation en intérieur par ondes }{13}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Techniques utilisées}{13}{subsection.1.6.1}%
+\contentsline {subsubsection}{Méthode de mesure des angles d’arrivée (AOA)}{14}{section*.3}%
+\contentsline {subsubsection}{Méthode de mesure des temps d’arrivée (TOA)}{14}{section*.4}%
+\contentsline {subsubsection}{Méthode de mesure des différences de temps d’arrivée (TdOA)}{15}{section*.5}%
+\contentsline {subsubsection}{Méthodes basées sur la puissance des signaux reçus (RSS)}{16}{section*.6}%
+\contentsline {paragraph}{}{18}{section*.7}%
+\contentsline {subsubsection}{Comparatif des techniques}{18}{section*.8}%
+\contentsline {section}{\numberline {1.7}Etude de l’existant }{19}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}L’entreprise française Polestar}{19}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}L’entreprise anglaise Pointr Labs}{19}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}L’aéroport de Londres-Gatwick }{19}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Hypermarché Carrefour Westfield Euralille Lille, France}{20}{subsection.1.7.4}%
+\contentsline {section}{\numberline {1.8}Conclusion}{20}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Méthodologie.}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2} Introduction}{21}{section.2.2}%
+\contentsline {paragraph}{D}{21}{section*.9}%
+\contentsline {section}{\numberline {2.3} Diagrammes de SysML}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1} Description fonctionnelle}{23}{subsection.2.3.1}%
+\contentsline {subsubsection}{ Le diagramme des cas d'utilisation (UCD) :}{23}{section*.10}%
+\contentsline {subsubsection}{ Le diagramme des exigences}{24}{section*.11}%
+\contentsline {subsubsection}{ Le diagramme de contexte}{26}{section*.12}%
+\contentsline {subsection}{\numberline {2.3.2} Description structurelle}{26}{subsection.2.3.2}%
+\contentsline {subsubsection}{ Le diagramme de d\'{e}finition des blocks (BDD)}{26}{section*.13}%
+\contentsline {subsubsection}{ Le diagramme de block interne (IBD)}{27}{section*.14}%
+\contentsline {subsubsection}{ Le diagramme param\'{e}trique}{28}{section*.15}%
+\contentsline {subsection}{\numberline {2.3.3} Description comportementale}{32}{subsection.2.3.3}%
+\contentsline {subsubsection}{ Le diagramme de s\'{e}quence (sd)}{32}{section*.16}%
+\contentsline {subsubsection}{ Le diagramme d'activit\'{e}}{33}{section*.17}%
+\contentsline {subsubsection}{ Le diagramme d'\'{e}tat (stm)}{33}{section*.18}%
+\contentsline {section}{\numberline {2.4} Approche SysML}{34}{section.2.4}%
+\contentsline {section}{\numberline {2.5} La relation entre UML et SysML}{34}{section.2.5}%
+\contentsline {section}{\numberline {2.6} Synthèse: }{35}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Le processus unifie UP (Unified Process)}{36}{subsection.2.6.1}%
+\contentsline {subsubsection}{ UP est it\'{e}ratif}{36}{section*.19}%
+\contentsline {subsubsection}{ UP est centr\'{e} sur l'architecture}{37}{section*.20}%
+\contentsline {subsubsection}{ UP est pilot\'{e} par les cas d'utilisation}{38}{section*.21}%
+\contentsline {subsubsection}{ Les activit\'{e}s}{39}{section*.22}%
+\contentsline {subsubsection}{ Les phases}{39}{section*.23}%
+\contentsline {chapter}{\numberline {3}Outils et matériel}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Internet des objets (IoT)}{41}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Types d'objet connect\'{e}s }{43}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Domaines d'application de l'IoT :}{43}{subsection.3.1.2}%
+\contentsline {paragraph}{LA MAISON}{43}{section*.24}%
+\contentsline {paragraph}{LE SPORT}{43}{section*.25}%
+\contentsline {paragraph}{LE LOISIR}{44}{section*.26}%
+\contentsline {paragraph}{LA SANT\'{E} ET LE BIEN-\^{E}TRE}{44}{section*.27}%
+\contentsline {paragraph}{LA MODE ET ACCESSOIRES}{44}{section*.28}%
+\contentsline {paragraph}{LE TRANSPORT}{44}{section*.29}%
+\contentsline {paragraph}{~LES MULTIM\'{E}DIA}{45}{section*.30}%
+\contentsline {paragraph}{~LES ANIMAUX}{45}{section*.31}%
+\contentsline {paragraph}{LES B\'{E}B\'{E}S}{45}{section*.32}%
+\contentsline {subsection}{\numberline {3.1.3}Architecture g\'{e}n\'{e}ral d'un system IoT}{45}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Les plateformes IoT:}{46}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Les syst\`{e}mes embarqu\'{e}s}{46}{section.3.2}%
+\contentsline {paragraph}{D\'{e}finition 1:}{46}{section*.33}%
+\contentsline {paragraph}{D\'{e}finition 2:}{47}{section*.34}%
+\contentsline {subsection}{\numberline {3.2.1}Caract\'{e}ristiques}{47}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Syst\`{e}mes informatiques et Syst\`{e}mes 574727421embarqu\'{e}s}{47}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Classification des syst\`{e}mes embarqu\'{e}s}{48}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Domaines d'application des syst\`{e}mes embarqu\'{e}s}{48}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Raspberry }{48}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Composants d'une carte Raspberry}{49}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Plateformes et langages :}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}PhpStorm}{50}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Android Studio}{51}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}PHP}{51}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Javascript}{52}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}HTML}{52}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}JAVA}{53}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}XML}{53}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}CSS}{54}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}XAMPP}{54}{subsection.3.4.9}%

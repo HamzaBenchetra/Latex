@@ -1,0 +1,66 @@
+\BOOKMARK [-1][-]{part.1}{I \311tat de l'art.}{}% 1
+\BOOKMARK [0][-]{chapter.1}{\311tude sur le positionnement en int\351rieur.}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Historique}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{D\351finitions et terminologie }{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.3.1}{G\351olocalisation par satellites}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.2}{RSSI \(Received Signal Strength Indication\)}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.3}{RTLS}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.4}{GPS: GLOBAL Positioning System}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.5}{Ultra Wide Band \(UWB\)}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.6}{Bluetooth}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.7}{Wifi}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.8}{Wlan}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.9}{Radio-identification}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.10}{Trilat\351ration}{section.1.3}% 15
+\BOOKMARK [1][-]{section.1.4}{Domaines d\220application des syst\350mes de positionnement en int\351rieur}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.4.1}{Aide \340 la navigation}{section.1.4}% 17
+\BOOKMARK [2][-]{subsection.1.4.2}{Transport}{section.1.4}% 18
+\BOOKMARK [2][-]{subsection.1.4.3}{Supermarch\351s et Hypermarch\351s}{section.1.4}% 19
+\BOOKMARK [2][-]{subsection.1.4.4}{Marketing}{section.1.4}% 20
+\BOOKMARK [1][-]{section.1.5}{Technologies utilis\351es}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.5.1}{Les technologies autonomes}{section.1.5}% 22
+\BOOKMARK [2][-]{subsection.1.5.2}{Les technologies bas\351es sur une infrastructure}{section.1.5}% 23
+\BOOKMARK [2][-]{subsection.1.5.3}{Synth\350se des technologies}{section.1.5}% 24
+\BOOKMARK [1][-]{section.1.6}{Localisation en int\351rieur par ondes }{chapter.1}% 25
+\BOOKMARK [2][-]{subsection.1.6.1}{Techniques utilis\351es}{section.1.6}% 26
+\BOOKMARK [1][-]{section.1.7}{Etude de l\220existant }{chapter.1}% 27
+\BOOKMARK [2][-]{subsection.1.7.1}{L\220entreprise fran\347aise Polestar}{section.1.7}% 28
+\BOOKMARK [2][-]{subsection.1.7.2}{L\220entreprise anglaise Pointr Labs}{section.1.7}% 29
+\BOOKMARK [2][-]{subsection.1.7.3}{L\220a\351roport de Londres-Gatwick }{section.1.7}% 30
+\BOOKMARK [2][-]{subsection.1.7.4}{Hypermarch\351 Carrefour Westfield Euralille Lille, France}{section.1.7}% 31
+\BOOKMARK [1][-]{section.1.8}{Conclusion}{chapter.1}% 32
+\BOOKMARK [0][-]{chapter.2}{M\351thodologie.}{part.1}% 33
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 34
+\BOOKMARK [1][-]{section.2.2}{ Introduction}{chapter.2}% 35
+\BOOKMARK [1][-]{section.2.3}{ Diagrammes de SysML}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.3.1}{ Description fonctionnelle}{section.2.3}% 37
+\BOOKMARK [2][-]{subsection.2.3.2}{ Description structurelle}{section.2.3}% 38
+\BOOKMARK [2][-]{subsection.2.3.3}{ Description comportementale}{section.2.3}% 39
+\BOOKMARK [1][-]{section.2.4}{ Approche SysML}{chapter.2}% 40
+\BOOKMARK [1][-]{section.2.5}{ La relation entre UML et SysML}{chapter.2}% 41
+\BOOKMARK [1][-]{section.2.6}{ Synth\350se: }{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.6.1}{Le processus unifie UP \(Unified Process\)}{section.2.6}% 43
+\BOOKMARK [0][-]{chapter.3}{Outils et mat\351riel}{part.1}% 44
+\BOOKMARK [1][-]{section.3.1}{Internet des objets \(IoT\)}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.1.1}{Types d'objet connect\351s }{section.3.1}% 46
+\BOOKMARK [2][-]{subsection.3.1.2}{Domaines d'application de l'IoT :}{section.3.1}% 47
+\BOOKMARK [2][-]{subsection.3.1.3}{Architecture g\351n\351ral d'un system IoT}{section.3.1}% 48
+\BOOKMARK [2][-]{subsection.3.1.4}{Les plateformes IoT:}{section.3.1}% 49
+\BOOKMARK [1][-]{section.3.2}{Les syst\350mes embarqu\351s}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.2.1}{Caract\351ristiques}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.2}{Syst\350mes informatiques et Syst\350mes 574727421embarqu\351s}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.3}{Classification des syst\350mes embarqu\351s}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.4}{Domaines d'application des syst\350mes embarqu\351s}{section.3.2}% 54
+\BOOKMARK [1][-]{section.3.3}{Raspberry }{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.3.1}{Composants d'une carte Raspberry}{section.3.3}% 56
+\BOOKMARK [1][-]{section.3.4}{Plateformes et langages :}{chapter.3}% 57
+\BOOKMARK [2][-]{subsection.3.4.1}{PhpStorm}{section.3.4}% 58
+\BOOKMARK [2][-]{subsection.3.4.2}{Android Studio}{section.3.4}% 59
+\BOOKMARK [2][-]{subsection.3.4.3}{PHP}{section.3.4}% 60
+\BOOKMARK [2][-]{subsection.3.4.4}{Javascript}{section.3.4}% 61
+\BOOKMARK [2][-]{subsection.3.4.5}{HTML}{section.3.4}% 62
+\BOOKMARK [2][-]{subsection.3.4.6}{JAVA}{section.3.4}% 63
+\BOOKMARK [2][-]{subsection.3.4.7}{XML}{section.3.4}% 64
+\BOOKMARK [2][-]{subsection.3.4.8}{CSS}{section.3.4}% 65
+\BOOKMARK [2][-]{subsection.3.4.9}{XAMPP}{section.3.4}% 66
