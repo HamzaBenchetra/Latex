@@ -53,29 +53,31 @@
 	
 	
 \part{État de l'art.}
+\section*{Introduction générale}
 
+La localisation géographique d'objets, services ou personnes est devenue un besoin omniprésent  dans le quotidien. Évoluant à grande vitesse, les besoins sont toujours plus spécifiques ce qui implique que les techniques et technologies doivent elle aussi évoluer constamment pour satisfaire ces derniers.
+\newline
+\newline
+De nos jours, le GPS s’impose en \textit{outdoor}, offrant une précision métrique, cependant, dans les espaces clos, cette technologie peine a fournir des résultats fiable a cause des signaux affaiblit voir même bloqués par les obstacles qui les rendent inefficaces au regard des résultats souhaiter par les utilisateurs.
+\newline
+\newline
+Ainsi, avec l’omniprésence d’infrastructures sans fil au sein des espaces clos, de nouvelles technologies de positionnement en intérieur peuvent être déployé pour prendre le relai des technologies existantes, notamment le GPS.
+\newline
+\newline
+Certains systèmes opèrent dans des lieux publics tels que les musées ou parkings souterrains a des fins de guidage ou suivi de position en temps réel, d’autres dans le commerce, en prenant connaissances des déplacement habituels de l’utilisateur pour créer de l’interactivité en fonction du lieu où il se trouve.
+\newline
+\newline
+Ces systèmes peuvent également être utilisés dans un but de surveillance. Les technologies de localisation peuvent permettre le suivi de personnes sensibles telles que des enfants ou de personnes âgées (par exemple).
+\newline
+\newline
+De tels systèmes contribuent aussi au domaine de l’IoT. Les systèmes de positionnement en intérieur permettent de localiser toute entité munie d’un tag et les localiser les unes par rapport aux autres.
+\newline
+\newline
+La localisation \textit{indoor} soulève donc de nouveaux défis de conception et d’installation. Les systèmes de positionnement, désormais déployés en environnement dynamique, doivent allier robustesse et fiabilité tout en répondant à des exigences de précision, de temps critique, d’efficacité énergétique et de coûts de déploiement.
+\newpage
 \chapter{Étude sur le positionnement en intérieur.}
 
-
-\section{Introduction}
-
-\smallskip
-La localisation géographique d'objets, services ou personnes est devenue un besoin omniprésent  dans le quotidien. Evoluant à grande vitesse, les besoins sont toujours plus spécifiques ce qui implique que les techniques et technologies doivent elle aussi évoluer constamment pour satisfaire ces derniers.\smallskip
-
-De nos jours, le GPS s’impose en \textit{outdoor}, offrant une précision métrique, cependant, dans les espaces clos, cette technologie peine a fournir des résultats fiable a cause des signaux affaiblit voir même bloqués par les obstacles les rendant inefficaces au regard des résultats souhaiter par les utilisateurs.
-
-Ainsi, avec l’omniprésence d’infrastructures sans fil au sein des espaces clos, de nouvelles technologies de positionnement en intérieur peuvent être déployé pour prendre le relai des technologies existantes, notamment le GPS.
-
-Certains systèmes opèrent dans des lieux publics tels que les musées ou parkings souterrains a des fins de guidage ou suivi de position en temps réel, d’autres dans le commerce, en prenant connaissances des déplacement habituels de l’utilisateur pour créer de l’interactivité en fonction du lieu où il se trouve.
-
-Ces systèmes peuvent également être utilisés dans un but de surveillance. Les technologies de localisation peuvent permettre le suivi de personnes sensibles telles que des enfants ou des personnes âgées (par exemple).
-
-De tels systèmes contribuent aussi au domaine de l’IoT. Les systèmes de positionnement en intérieur permettent de localiser toute entité munie d’un tag et les localiser les unes par rapport aux autres.
-
-
-La localisation indoor soulève donc de nouveaux défis de conception et d’installation. Les systèmes de positionnement, désormais déployés en environnement dynamique, doivent allier robustesse et fiabilité tout en répondant à des exigences de précision, de temps critique, d’efficacité énergétique et de coûts de déploiement.
-
-\section{Historique}
+\section{introduction}
 
 Dans le passé, pour déterminer sa localisation l'homme utilisait des méthodes primitives telles que le calcule d'angles entre l'horizon et le soleil à midi à l'aide d'outil particuliers, ainsi qu'une horloge pour déterminer la longitude, mais ces techniques n'étaient utilisables qu'à certains moments de la journée et dans des conditions météorologiques adéquates. Après cela, pendant les années 70 les forces militaires ont mis au point un système de localisation reposant sur un ensemble de 32 satellites chacun emmenant un signal unique et en continue a une vitesse constante ce qui fait que chaque signale arrive à une heure différente permettant ainsi de calculer la distance entre l'appareil et le satellite. Cette technique fut mise à la disposions au particuliers aux alentours des années 80 qui l'intégrèrent au téléphones portables et au véhicules. La détermination de la position se faisait ensuite à l'aide d'un algorithme de trilatération qui consiste à calculer la position à l'aide de trois distances pour un plan et de quatre pour une sphère (la terre). Avec le temps la localisation avec satellite à évoluer au point de fournir une précision à l'ordre de quelques mètres, ce pendant elle n'était efficace qu'en dehors des bâtiments et des espaces clos et c'est ici qu'interviennent les systèmes de localisation en intérieur qui remplace les systèmes de géolocalisation par satellite dans les milieux fermés.
 
@@ -83,40 +85,40 @@ Dans le passé, pour déterminer sa localisation l'homme utilisait des méthodes
 
 \subsection{Géolocalisation par satellites}
 
-La géolocalisation par satellite est un procédé de localisation qui consiste à émettre des signaux qui sont capté par un terminal qui calcule la latitude la longitude et parfois aussi l'altitude et au moins 4 satellites doit être visible du terminal, les exemples les plus connues sont le GPS le système de positionnement universelle américain Navstar NS-7B où ça variantes européenne nommé Galileo.
+La géolocalisation par satellite est un procédé de localisation qui consiste à émettre des signaux qui sont capté par un terminal qui calcule la latitude la longitude et parfois aussi l'altitude et au moins 4 satellites doit être visible du terminal, les exemples les plus connues sont le GPS le système de positionnement universelle américain \textit{Navstar} NS-7B où ça variantes européenne nommé Galileo.
 
-\subsection{RSSI (Received Signal Strength Indication)}
+\subsection{RSSI}
 
-Une premièremétrique de radio-localisation, très souvent déjà mise à profit dans les systèmes de communication radio tel que les réseaux cellulaires etWLAN, s’appuie sur la mesure de la puissance du signal reçu, notée RSS (Received Signal Strength) pour décrire la puissance analogique reçue ou RSSI (Received Signal Strength Indicator) après quantification de cette même puissance par un récepteur réel.\cite{PHD:rssi}
+ L'indication de la force du signal reçu (en anglais \textit{Received Signal Strength Indication}) est une métrique de radio-localisation, déjà mise à profit dans les systèmes de communication radio tel que les réseaux cellulaires et WLAN, elle s’appuie sur la mesure de la puissance du signal reçu, notée RSS ( \textit{Received Signal Strength}) pour décrire la puissance analogique reçue après quantification de cette même puissance par un récepteur réel.\cite{PHD:rssi}
 
 \subsection{RTLS}
 
-RTLS (Real-time locating systems) est une technologie de positionnement et d'identification qui a été prouvée dans divers marchés. Elle est utilisée pour identifier et suivre automatiquement des personnes ou des objets en temps réel, en général dans un bâtiment ou une zone limitée. Des tags RFID (Radio Frequency Identification) sans fil sont attachés à des objets ou portés par des personnes, et dans la plupart des applications RTLS les points de référence fixés reçoivent des signaux des tags RFID actifs ou passifs pour déterminer leur emplacement\cite{rtls}
+RTLS (\textit{Real-time locating systems}) est une technologie de positionnement et d'identification qui a été prouvée dans divers marchés. Elle est utilisée pour identifier et suivre automatiquement des personnes ou des objets en temps réel, en général dans un bâtiment ou une zone limitée. Des tags RFID (\textit{Radio Frequency Identification}) sans fil sont attachés à des objets ou portés par des personnes, et dans la plupart des applications RTLS les points de référence fixés reçoivent des signaux des tags RFID actifs ou passifs pour déterminer leur emplacement\cite{rtls}
 
 
-\subsection{GPS: GLOBAL Positioning System}
+\subsection{GPS}
 
-Le Global Positioning System (GPS) (en français : « Système mondial de positionnement » [littéralement] ou « Géo positionnement par satellite »), originellement connu sous le nom de Navstar GPS, est un système de positionnement par satellites appartenant au gouvernement des États-Unis. Mis en place par le département de la Défense des États-Unis à des fins militaires à partir de 1973, le système avec 24 satellites est totalement opérationnel en 1995 et s'ouvre au civil en 2000\cite{gps}
+Le \textit{Global Positioning System} (en français : « Système mondial de positionnement » [littéralement] ou « Géo positionnement par satellite »), originellement connu sous le nom de \textit{Navstar GPS}, est un système de positionnement par satellites appartenant au gouvernement des États-Unis. Mis en place par le département de la Défense des États-Unis à des fins militaires à partir de 1973, le système avec 24 satellites est totalement opérationnel en 1995 et s'ouvre au civil en 2000\cite{gps}
 
 
-\subsection{Ultra Wide Band (UWB)}
+\subsection{Ultra-large bande }
 
-La transmission à ultra-large bande (UWB) est une technologie largement utilisée dans les applications de radar et de télédétection et a récemment reçu une grande attention dans les universités et l'industrie pour les applications de communications sans fil. Un système UWB est défini comme tout système radio dont la largeur de bande de 10 dB est supérieure à 25 pour cent de sa fréquence centrale, ou dont la largeur de bande de 10 dB est égale ou supérieure à 1,5 GHz si la fréquence centrale est supérieure à 6 GHz \cite{uwb}
+La transmission a ultra-large bande (ULB) ou en anglais \textit{ultra Wide Band} (UWB) est une technologie largement utilisée dans les applications de radar et de télédétection et a récemment reçu une grande attention dans les universités et l'industrie pour les applications de communications sans fil. Un système UWB est défini comme tout système radio dont la largeur de bande de 10 dB est supérieure à 25 pour cent de sa fréquence centrale, ou dont la largeur de bande de 10 dB est égale ou supérieure à 1,5 GHz si la fréquence centrale est supérieure à 6 GHz \cite{uwb}
 
 \subsection{Bluetooth}
 
-Bluetooth is a universal radio interface in the 2.45 GHz frequency band that enables portable electronic devices to connect and communicate wirelessly via short-range, ad hoc networks. Each unit can simultaneously communicate with up to seven other units per piconet. Moreover, each unit can simultaneously belong to several piconets \cite{bluetooth}
+Bluetooth est une interface radio universelle dans la bande de fréquences 2,45 GHz qui permet aux appareils électroniques portables de se connecter et de communiquer sans fil via des réseaux ad hoc* à courte portée. Chaque unité peut communiquer simultanément avec jusqu'à sept autres unités par picoréseau (très petit réseau). De plus, chaque unité peut appartenir simultanément à plusieurs piconets \cite{bluetooth}
 
 \subsection{Wifi}
 
-le wi-fi ou la fidélité sans file en anglais est un ensemble de protocoles de communication qui fonctionne avec des ondes radio dans une bande passante entre [2.4 - 5 ] GHz , il est destiné au relie des équipement informatiques et de téléphonie mobiles dans un seul reseau haut débit et sans fil (WLAN)
+le wi-fi ou la fidélité sans file en anglais (\textit{Wireless Fidelity}) est un ensemble de protocoles de communication qui fonctionne avec des ondes radio dans une bande passante entre [2.4 - 5 ] GHz , il est destiné au relie des équipement informatiques et de téléphonie mobiles dans un seul réseau haut débit et sans fil (WLAN)
 
 \subsection{Wlan}
-Un réseau sans fil (en anglais : wireless network) est un réseau informatique numérique qui connecte différents postes ou systèmes entre eux par ondes radio. Il peut être associé à un réseau de télécommunications pour réaliser des interconnexions à distance entre nœuds. (Réseau sans fil) \cite{wlan}
+Un réseau sans fil (en anglais : \textit{wireless network}) est un réseau informatique numérique qui connecte différents postes ou systèmes entre eux par ondes radio. Il peut être associé à un réseau de télécommunications pour réaliser des interconnexions à distance entre nœuds. (Réseau sans fil) 
 
 
 \subsection{Radio-identification}
-	La radio-identification, le plus souvent désignée par le sigle RFID (de l’anglais radio frequency identification), est une méthode pour mémoriser et récupérer des données à distance en utilisant des marqueurs appelés « radio-étiquettes » (« RFID tag » ou « RFID transponder » en anglais). (Radio-identification)\cite{rfid}
+	La radio-identification, le plus souvent désignée par le sigle RFID (de l’anglais \textit{radio frequency identification}), est une méthode pour mémoriser et récupérer des données à distance en utilisant des marqueurs appelés « radio-étiquettes » («\textit{ RFID tag} » ou « \textit{RFID transponder} » en anglais). (\textit{Radio-identification})\cite{rfid}
 
 \subsection{Trilatération}
 
@@ -126,57 +128,55 @@ La trilatération est une méthode mathématique permettant de déterminer la po
 \section{Domaines d’application des systèmes de positionnement en intérieur}
 
 \subsection{Aide à la navigation}
-Dans le cas d’une navigation allant de l’outdoor à l’indoor (ex : Un client tilisant son application GPS pour se rendre de chez lui à un point d’intérêt précis situé à l’intérieur d’un centre commercial), celle-ci se doit d’être « sans coutures » : le mobile devra immédiatement détecter que l’utilisateur est rentré dans un bâtiment, et passer de manière transparente en mode navigation intérieure.
-Sites industriels Une fois un problème identifié sur un site industriel, une application mobile pourrait permettre de guider l’équipe technique mobile la plus proche vers la source du problème. Ensuite, une fonctionnalité d’aide à la résolution de problème type Réalité augmentée ou Télé-assistance pourrait prendre le relai si besoin\cite{navigation}
+Dans le cas d’une navigation allant de l’\textit{outdoor} à l’\textit{indoor} (ex : Un client utilisant son application GPS pour se rendre de chez lui à un point précis situé à l’intérieur d’un centre commercial), celle-ci se doit d’être « sans coupures » : le mobile devra immédiatement détecter que l’utilisateur est rentré dans un bâtiment, et passer de manière transparente en mode navigation intérieure.
+
+\subsection{Sites industriels}
+ Lorsqu'un problème ou une panne est identifiée sur un site industriel, une application de localisation pourrait permettre de guider l’équipe technique mobile la plus proche vers la source du problème dans un minimum de temps. Ensuite, une fonctionnalité d’aide à la résolution de problème type Réalité augmentée ou Télé-assistance pourrait prendre le relai si besoin\cite{navigation}
 
 
-\subsection{Transport}
-Permettre à un voyageur de naviguer non seulement en extérieur, mais aussi à l’intérieur d’un lieu de type aéroport, gare ou station de métro\cite{transport}% ya tzid ya tne7iha
 
 \subsection{Supermarchés et Hypermarchés}
-Supermarchés et Hypermarchés
 Les grandes surfaces comme les supermarchés nécessitent des compétences de localisation pour se situer dans les rayons et de trouver les articles recherchés, un système de localisation dans un tel endroit permettra de montrer aux clients les emplacements des produits ou rayons et faciliter leur expérience d’utilisateur.
 Le système peut même être utilisé pour des buts publicitaires comme par exemple faire des propositions aux clients selon leurs préférences ou de liquider des produits etc.
 
 
 \subsection{Marketing}
 
-la principale application du marketing serait le géomarketing : l’optimisation des revenus au mètre carré, en fonction des données de visite des clients (flux, temps de visite, zones de passages, zones de transformation, etc.). Il est possible de personnaliser des offres marketing, non seulement selon les données connues sur le client par la marque (carte de fidélité) mais aussi selon le contexte géographique d’un client en magasin.
+La principale application du marketing serait le géomarketing : l’optimisation des revenus au mètre carré, en fonction des données de visite des clients (flux, temps de visite, zones de passages, zones de transformation, etc.). Il est possible de personnaliser des offres marketing, non seulement selon les données connues sur le client par la marque (carte de fidélité) mais aussi selon le contexte géographique d’un client en magasin.
 
 
 \section{Technologies utilisées}
 
-Les technologies mettant à l’œuvre des systèmes de localisation indoor se distinguent en deux catégories :
+Les technologies mettant à l’œuvre des systèmes de localisation \textit{indoor} se distinguent en deux catégories :
 
 
 – Des technologies autonomes ne nécessitant aucune infrastructure à déployer, donc sans interaction entre l’utilisateur et des équipements.
 
 
-– D’un autre côté, celles reposant sur une infrastructure d’équipements interconnectés.
+– D’un autre côté, celles reposant sur une infrastructure d’équipements inter-connectés.
 
 \subsection{Les technologies autonomes}
 
-\textbf{-Capteurs inertiels et dead reckoning :}
+\subsubsection{-Capteurs inertiels et \textit{dead reckoning} :}
 
 
 	Ces premiers systèmes de positionnement s’appuient sur une méthode appelée de « dead reckoning »\cite{dead} , qui consiste à déduire la position actuelle à partir de la position précédente.
 	
-	Le système exploite donc les capteurs inertiels (accéléromètres, gyroscopes, etc.) parfois utilisés en combinaison avec la boussole ou le podomètre intégré de l’appareil mobile. Ces différents dispositifs permettent de calculer les déplacements dans l’environnement. L’utilisateur doit disposer d’un smartphone ou d’une carte embarquée contenant des capteurs inertiels et le plan du bâtiment doit être connue, aussi, il est nécessaire de connaitre l’emplacement initial de l’utilisateur.
+	Le système exploite donc les capteurs inertiels (accéléromètres, gyroscopes, etc.) parfois utilisés en combinaison avec la boussole ou le podomètre intégré de l’appareil mobile. Ces différents dispositifs permettent de calculer les déplacements dans l’environnement. L’utilisateur doit disposer d’un \textit{smartphone} ou d’une carte embarquée contenant des capteurs inertiels et le plan du bâtiment doit être connue, aussi, il est nécessaire de connaitre l’emplacement initial de l’utilisateur.
 	
 	Les données de déplacement recueilli pendant le mouvement du porteur du dispositif permet de déterminer la nouvelle position qui calculé de manière relative, la position à l’instant T-1 permettant de déterminer celle à l’instant T. Une communication entre la carte ou l’appareil mobile peut entrer en jeux a fin de centraliser les données et réduire la charge de calcule sur le terminal
 	
 	
-\textbf{	Atouts et faiblesse :}
+\paragraph{	Atouts et faiblesse :}
 	
-	Ces systèmes ont l’avantage d’être pratiquement autonomes en présences des conditions adéquates. Mais leur précision de positionnement reste toutefois limitée à causes des erreurs cumulées au fil des déplacements.
+	-Ces systèmes ont l’avantage d’être pratiquement autonomes en présences des conditions adéquates. Mais leur précision de positionnement reste toutefois limitée à causes des erreurs cumulées au fil des déplacements.
 	
 	
-	Les  capteurs inertiels sont généralement utilisés en combinaison avec d’autres technologies, selon le principe de fusion des données.
+	-Les  capteurs inertiels sont généralement utilisés en combinaison avec d’autres technologies, selon le principe de fusion des données.
 	
-	\begin{itemize}
-	\item Étude des champs magnétiques \cite{magnet}
+	\subsubsection{Étude des champs magnétiques} 
 	
-	Cette technique se base sur des capteurs a effet Hall afin de mesurer l’intensité des champs magnétiques terrestres présents au sein des espaces clos, champs magnétiques dont l’intensité diffère d’un emplacement à un autres à causes des perturbations causées par les structures métalliques composants le bâtiment. En enregistrant les variations de ces derniers, une détermination de la position est possible
+	Cette technique se base sur des capteurs a effet Hall afin de mesurer l’intensité des champs magnétiques\cite{magnet} terrestres présents au sein des espaces clos, champs magnétiques dont l’intensité diffère d’un emplacement à un autres à causes des perturbations causées par les structures métalliques composants le bâtiment. En enregistrant les variations de ces derniers, une détermination de la position est possible
 	
 	
 	Bien qu’elle soit indépendante de toute interaction avec des périphériques externes, cette technique de localisation nécessite toutefois une calibration initiale en plus de l’acquisition d’informations spécifiques à l’environnement de déplacement
@@ -188,7 +188,7 @@ Les technologies mettant à l’œuvre des systèmes de localisation indoor se d
 	
 	– La reconnaissance de patterns représentatifs d’un élément
 	
-	La première démarche s’appuie sur le principe de « Fingerprinting ». Qui consiste a enregistrer les différentes intensités du champ magnétique sur les axes de déplacements (x, y, z) dans différents points de l’environnement, qui soit dit en passant doit être cartographier au préalable, grâce au capteur a effet Hall et sauvegarder les valeurs recueilli dans une base de données.
+	La première démarche s’appuie sur le principe de « \textit{Fingerprinting} ». Qui consiste a enregistrer les différentes intensités du champ magnétique sur les axes de déplacements (x, y, z) dans différents points de l’environnement, qui soit dit en passant doit être cartographier au préalable, grâce au capteur a effet Hall et sauvegarder les valeurs recueilli dans une base de données.
 	
 	\begin{figure}[h]
 		\centering
@@ -200,34 +200,33 @@ Les technologies mettant à l’œuvre des systèmes de localisation indoor se d
 ensuite, a la phase de déplacement libre , le dispositif (téléphone par exemple) compare les valeurs actuelles avec les valeurs qui se trouve dans la base de données précédemment constituée. Il repère alors l’usager à la position correspondante.
 
 
- \textbf{Atouts et faiblesses :}
-
+ \paragraph{Atouts et faiblesses :}
 
 Bien que cette technique ne soit pas très populaire, la localisation via champ magnétique prometteuse et pas très couteuse. Elle offre une précision jusqu’à maintenant inférieure à un mètre, et tout ça, sans l’exigence d’une infrastructure. 
 
-Toutefois l’utilisation d’une telle technologie se limite à des situations bien spécifiques. En effet, pour pouvoir l’utiliser, les déplacements de l’utilisateur doivent être prévisibles et former un pattern plus ou moins précis par exemple un supermarché avec des rayons ou un local avec des couloirs etroits.
+Toutefois l’utilisation d’une telle technologie se limite à des situations bien spécifiques. En effet, pour pouvoir l’utiliser, les déplacements de l’utilisateur doivent être prévisibles et former un pattern plus ou moins précis par exemple un supermarché avec des rayons ou un local avec des couloirs étroits.
 
-De fait, la mobilité d'usager doit étre limitée , sous soucis d’avoir une complexité élevée
+De fait, la mobilité d'usager doit être limitée , sous soucis d’avoir une complexité élevée
 	
 
 
 \subsection{Les technologies basées sur une infrastructure}
 
-\item Les techniques d’imagerie
+\subsubsection{ Les techniques d’imagerie}
 
 	Cette méthode consiste a équiper l’environnement de capteurs visuels comme des caméras,  dans des positions fixes et connues et qui identifieront les objets à localiser, elle repose sur le concept d’analyse environnementale afin d’extraire les anomalies. 
 
-\textbf{Atouts et faiblesses :}
+\paragraph{Atouts et faiblesses :}
 
-Les systèmes d’imagerie atteignent souvent une très bonne précision en espace clos, de plus ils ne nécessitent aucun dispositif rattaché à l’utilisateur, ce qui constitue un avantage certain (le système est dit « device free »).
+Les systèmes d’imagerie atteignent souvent une très bonne précision en espace clos, de plus ils ne nécessitent aucun dispositif rattaché à l’utilisateur, ce qui constitue un avantage certain (le système est dit « \textit{device free} »).
 
 Toute fois elles sont limitées en ce qui concerne le champ de vision, et en présences d’un nombre importants d’individus, il devient plus difficile de les identifier, bien sur  des solutions existent, mais cela requiert des capacités de calculs élevées, venant augmenter les coûts.
 
-\item L’exploitation des ondes radio 
+\subsubsection{ L’exploitation des ondes radio }
 
-Avec leurs caractéristiques impressionnantes, les ondes radiofréquences peuvent traverser des cloisons, murs ou tout autre obstacle pouvant être présent au sein d’un bâtiment ou n’importe quel espace clôt. En plus, leur omniprésence au quotidien fait d’eux la base de nombreuses technologies de positionnement.
+Avec leurs caractéristiques impressionnantes, les ondes radio-fréquences peuvent traverser des cloisons, murs ou tout autre obstacle pouvant être présent au sein d’un bâtiment ou n’importe quel espace clôt. En plus, leur omniprésence au quotidien fait d’eux la base de nombreuses technologies de positionnement.
 
-Plusieurs standards, et que l’on va citer dans ce qui suit, existent et chacun s’adapte a de nombreux cas d’utilisations. En général, l’architecture utilisée consiste en un ensemble de tag attachés aux personnes ou aux objets à localiser et d’un ensemble d’antennes déployer dans l’espace clos.
+Plusieurs standards, et que l’on va citer dans ce qui suit, existent et chacun s’adapte a de nombreux cas d’utilisations. En général, l’architecture utilisée consiste en un ensemble de \textit{tag} attachés aux personnes ou aux objets à localiser et d’un ensemble d’antennes déployer dans l’espace clos.
 
 	\begin{figure}[H]
 	\centering
@@ -236,9 +235,9 @@ Plusieurs standards, et que l’on va citer dans ce qui suit, existent et chacun
 	\label{fig:indoor}
 \end{figure}
 	Deux cas d'architecture sont alors possible:
-	-Soit le dispositif (tag) émet et les capteurs (antennes) sont à l’écoute
+	-Soit le dispositif (\textit{tag}) émet et les capteurs (antennes) sont à l’écoute
 	
-	-Soit chaque capteur (antenne) émet à destination du dispositif (tag), qui se charge de traiter l’information
+	-Soit chaque capteur (antenne) émet à destination du dispositif (\textit{tag}), qui se charge de traiter l’information
 	
 		\begin{figure}[H]
 		\centering
@@ -250,17 +249,13 @@ Plusieurs standards, et que l’on va citer dans ce qui suit, existent et chacun
 
 -Chacune de ces configurations offre plusieurs avantages :
 
-\item La première permet de réduire les éléments actifs au sein du système. 
-
-En effet, il n'ya que le dispositif (tag) qui est chargé d’émettre les signaux  vers les antennes environnantes, ce qui facilite énormément la synchronisation. Après réception du signal les antennes communiquent avec le serveur chargé du traitement algorithmique.
-
-
-Grâce à cette approche, les ressources chargé du calcul nécessaires au niveau du dispositif (tag) sont minimiser, la position de l’usager est par contre rendue accessible pour tout les utilisateurs du serveur.
-
-\item La deuxième configuration concentre tout le traitement au niveau de l’équipement à localiser, cela permet une position a temps réelsans avoir à un accès secondaire.
-donc l'utilisation d'une connexion réseau n'est plus utile.
+\paragraph{}
+La première permet de réduire les éléments actifs au sein du système.En effet, il n'ya que le dispositif (\textit{tag}) qui est chargé d’émettre les signaux  vers les antennes environnantes, ce qui facilite énormément la synchronisation. Après réception du signal les antennes communiquent avec le serveur chargé du traitement algorithmique.
 
 
+Grâce à cette approche, les ressources chargé du calcul nécessaires au niveau du dispositif (\textit{tag}) sont minimiser, la position de l’usager est par contre rendue accessible pour tout les utilisateurs du serveur.
+
+\paragraph{} La deuxième configuration concentre tout le traitement au niveau de l’équipement à localiser, cela permet une position a temps réel sans avoir à un accès secondaire et donc l'utilisation d'une connexion réseau n'est plus utile.
 En pratique le choix de la solution est à la charge du concepteur, selon l’utilisation souhaitée et la technologie support. En somme, la figure suivante synthétise la classification du chapitre :
 
 	\begin{figure}[H]
@@ -271,7 +266,7 @@ En pratique le choix de la solution est à la charge du concepteur, selon l’ut
 	
 \end{figure}
 
-La majorité des systèmes de localisation en intérieur utilisent des ondes radio comme moyen de communication. La transmission se fait entre un dispositif (tag) mobile et un réseau d’antennes fixés dans les angles d’endroit étudié.
+La majorité des systèmes de localisation en intérieur utilisent des ondes radio comme moyen de communication. La transmission se fait entre un dispositif (\textit{tag}) mobile et un réseau d’antennes fixés dans les angles d’endroit étudié.
 
 selon la nature de l’information utile , les algorithmes de positionnement se subdivisent en plusieurs catégories , chacun d'eux s'adapte à : "la technologie supportée et l'espace ciblé".
 
@@ -294,22 +289,19 @@ Les paramètres de exactitude et de portée sont en comparaison. Ces indices son
 
 \section{Localisation en intérieur par ondes }
 
-Localisation en intérieur par ondes 
-Etant donné notre intérêt a la géolocalisation indoor par ondes radio nous présenterons ses divers principes et technologies. 
 
-Une comparaison des différentes technologies ensuite est effectuée, permettant ainsi de préciser leurs différences en terme de caractéristiques et les cas d’utilisation courants.
-Dans cette architecture les systèmes seront composée d’un dispositif mobile (tag) à localiser, ainsi qu'un réseau d’antennes, déployées au sein de l’espace étudié à des positions connues et préalablement enregistrées dans la base de données
+Étant donné notre intérêt a la géolocalisation \textit{indoor} par ondes radio-fréquence nous présenterons dans cette section ses divers principes et technologies. 
+Une comparaison des différentes technologies sera par la suite effectuée, permettant ainsi de préciser leurs différences en terme de caractéristiques et les cas d’utilisation courants.
+Dans cette architecture les systèmes seront composée d’un dispositif mobile (\textit{tag}) à localiser, ainsi qu'un réseau d’antennes, déployées au sein de l’espace étudié à des positions connues et préalablement enregistrées dans la base de données.
 
-\subsection{Techniques utilisées}
-ndirou intro
-\subsubsection{Méthode de mesure des angles d’arrivée (AOA)}
+\subsection{Méthode de mesure des angles d’arrivée}
 
-Cette méthode nommé "l’angle d’arrivée (Angle Of Arrival)" utilise les angles des signaux émis par le dispositif mobile vers deux antennes environnantes au minimum
-Après détermination de ces angles, la position du dispositif est obtenue en intersectant les droites passantes par chaque point de reférence ce qui est appelé \textbf{la triangulation}
+Cette méthode nommé "l’angle d’arrivée (\textit{Angle Of Arrival} : AoA)" utilise les angles des signaux émis par le dispositif mobile vers deux antennes environnantes au minimum.
+Après détermination de ces angles, la position du dispositif est obtenue en intersectant les droites passantes par chaque point de référence ce qui est appelé \textbf{la triangulation}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{Pics/triangulation.PNG}
+	\includegraphics[width=0.9\linewidth]{Pics/triangulation.PNG}
 	\caption{Principe de triangulation à partir de deux antennes réceptrices.}
 	\label{fig:triangulation}
 	
@@ -319,40 +311,36 @@ Après détermination de ces angles, la position du dispositif est obtenue en in
 Le principal avantage du ce processus est qu’il ne nécessite que deux antennes de référence pour qu'il détermine une position en espace 2D. Mais reste incapable lorsqu'il s'agit d'un dispositif émetteur qui se trouve dans la même ligne qu'un récepteur 
 
 
-\subsubsection{Méthode de mesure des temps d’arrivée (TOA)}
+\subsection{Méthode de mesure des temps d’arrivée }
 
-Cette technique se base sur le temps de propagation d’un signal, entre l’émission par le dispositif (tag) mobile au moment Ti et la réception au sein du capteur (antenne) au moment Tf. Ces deux instants justifient la nomination de la technique, appelée  "Time Of Arrival".
+Cette technique se base sur le temps de propagation d’un signal, entre l’émission par le dispositif (\textit{tag}) mobile au moment Ti et la réception au sein du capteur (antenne) au moment Tf. Ces deux instants justifient la nomination de la technique, appelée  "\textit{Time Of Arrival}" : ToA.
 
-ce temps de propagation est lié à une distance d tel que \textbf{d = c * (Tf – Ti)},
+Ce temps de propagation est lié à une distance d tel que \textbf{d = c * (Tf – Ti)},
 
  Pour chaque capteur , une position est préalablement connue, l’usager se repère alors quelque part sur le cercle de rayon "d" et le point du centre "c" ou est situé le capteur (antenne) en question.
  
- cette opération est faite pour trois antennes au minimum , ce qui permet d’obtenir une position en espace bi-dimensionnelle (à l’intersection des 3 cercles construites). c'est la  « \textbf{trilatération} ».
+ Cette opération est faite pour trois antennes au minimum , ce qui permet d’obtenir une position en espace bi-dimensionnelle (à l’intersection des 3 cercles construites). c'est la  « \textbf{trilatération} ».
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.1\linewidth]{Pics/trilateration.PNG}
+	\includegraphics[width=0.6\linewidth]{Pics/trilateration.PNG}
 	\caption{Principe de trilatération utilisé dans la méthode de TOA}
 	\label{fig:trilateration}
 	
 
 \end{figure}
 
-l'inconvénient majeur de cette technique est que la synchronisation entre les nœuds doit être extrêmement précise , Ainsi que l'horodatage exact doit être transmis a tout les antennes du réseau une fois un dispositif (tag) émet une trame.
-\subsubsection{Méthode de mesure des différences de temps d’arrivée (TdOA)}
+l'inconvénient majeur de cette technique est que la synchronisation entre les nœuds doit être extrêmement précise , Ainsi que l'horodatage exact doit être transmis a tout les antennes du réseau une fois un dispositif (\textit{tag}) émet une trame.
+\subsection{Méthode de mesure des différences de temps d’arrivée}
 
-Son fonctionnement se résume en ces étapes : 
+En anglais \textit{Time difference of arrival} (TdOA) et son fonctionnement se résume en ces étapes : 
 
--un capteur (antenne) maître est en charge de partager son horloge aux autres récepteurs qui se trouve a son voisinage
+-Un capteur (antenne) maître est en charge de partager son horloge aux autres récepteurs qui se trouve a son voisinage.
 
- -Ensuite le dispositif (tag) émet régulièrement de courts messages diffusés en broadcast.
- 
-  La différence entre les temps d’arrivée du signal au paire de capteurs introduit une différence de distance entre l’usager et cet même paire.
+-Ensuite le dispositif (\textit{tag}) émet régulièrement de courts messages diffusés en \textit{broadcast}.
+ La différence entre les temps d’arrivée du signal au paire de capteurs introduit une différence de distance entre l’usager et cet même paire.
+ Celui-ci se situe alors sur une hyperbole ayant pour foyer les deux récepteurs. Sa position exacte est finalement obtenue après réitération du processus, à l’intersection des hyperboles construites comme la figure ci dessous l'indique
   
-  \textit{ Celui-ci se situe alors sur une hyperbole ayant pour foyer les deux récepteurs. Sa position exacte est finalement obtenue après réitération du processus, à l’intersection des hyperboles construites comme la figure ci dessous l'indique}
-  
-  
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.1\linewidth]{Pics/tdoa.PNG}
@@ -362,30 +350,23 @@ Son fonctionnement se résume en ces étapes :
 	
 \end{figure}
 
-\subsubsection{Méthodes basées sur la puissance des signaux reçus (RSS)}
+\subsection{Méthodes basées sur la puissance des signaux reçus}
 
-ces méthodes se basent sur la puissance du signal reçu (soit au niveau du dispositif cible (tag) soit au niveau des nœuds de référence (antennes fixes), selon le type d'émetteur. les algorithmes qui se basent sur la RSS (Received Signal Strength) se subdivisent en deux catégories.
+Ces méthodes se basent sur la puissance du signal reçu (soit au niveau du dispositif cible (\textit{tag}) soit au niveau des nœuds de référence (antennes fixes), selon le type d'émetteur. les algorithmes qui se basent sur la RSS (\textit{Received Signal Strength}) se subdivisent en deux catégories.
+\begin{itemize}
 
-\item ceux qui se basent sur une correspondance directe\textbf{ Puissance = fonction(distance)}. La puissance mesurée, au niveau du dispositif (tag) par exemple, est dite \textit{représentative de la distance} des antennes de référence, leur position est a présent connue.
-
-une fois ces distances sont tenues en compte pour un minimum de trois antennes, le système utilise le principe de \textbf{trilatération} afin de marquer la position exacte du dispositif mobile. il existe plusieurs équations mathématiques qui permet de modéliser le comportement du canal, en quantifiant la puissance du signal en fonction de la distance parcourue. L’évolution est souvent logarithmique.
-
+\item ceux qui se basent sur une correspondance directe\textbf{ Puissance = fonction(distance)}. La puissance mesurée, au niveau du dispositif (\textit{tag}) par exemple, est dite représentative de la distance des antennes de référence, leur position est a présent connue.
+Une fois ces distances sont tenues en compte pour un minimum de trois antennes, le système utilise le principe de \textbf{trilatération} afin de marquer la position exacte du dispositif mobile. il existe plusieurs équations mathématiques qui permet de modéliser le comportement du canal, en quantifiant la puissance du signal en fonction de la distance parcourue. L’évolution est souvent logarithmique.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.1\linewidth]{Pics/rss.PNG}
 	\caption{Exemple de l’évolution de la force du signal avec la distance (Technologie RFID)}
 	\label{fig:rssi}
-	
-	
 \end{figure}
 
 \item
-cette catégorie nécessite la création d’un jeu de donnée lors d’initialisation,nommé le \textbf{« Fingerprinting »}. la base de données est constituée en amont de la localisation.
-
- la base de données contient tous les relevés de puissance pour des positions fixes dans l'environnement étudié. 
- 
- en supposant que les puissances de N tag émetteur peuvent etre observées à la position (x,y), ces informations sont sauvegardées et forment une empreinte 'Fingerprint':
+cette catégorie nécessite la création d’un jeu de donnée lors d’initialisation,nommé le \textbf{« \textit{Fingerprinting} »}. la base de données est constituée en amont de la localisation et contient tous les relevés de puissance pour des positions fixes dans l'environnement étudié, en supposant que les puissances de N \textit{tag} émetteur peuvent être observées à la position (x,y), ces informations sont sauvegardées et forment une empreinte '\textit{Fingerprint}':
  
  \begin{figure}[H]
  	\centering
@@ -399,7 +380,7 @@ Ce processus se répète régulièrement ce qui permet d’établir une  cartogr
  \begin{figure}[H]
  	\centering
  	\includegraphics[width=1.1\linewidth]{Pics/sysRss2.PNG}
- 	\caption{Illustration du principe de Fingerprinting}
+ 	\caption{Illustration du principe de \textit{Fingerprinting}}
  	\label{fig:sysRss2}
  	
  	
@@ -407,28 +388,22 @@ Ce processus se répète régulièrement ce qui permet d’établir une  cartogr
 
 Lors du passage suivant a la période de localisation, l’appareil interroge la base de donnée pour affecter l’empreinte observée à une position dans l’environnement . 
 La précision du positionnement est en relation directe avec le nombre de positions enregistrées et le nombre d'antennes déployées.
+\end{itemize}
 
 
-
-
-
-\paragraph{}
 Cette seconde méthode de cartographie a pour mérite de tenir compte des spécificités du milieu. Les puissances observées reflètent les atténuations des murs ou du mobilier. La construction préalable de la base de données permet alors de répertorier les singularités de chaque position.	Ainsi le processus offre usuellement de meilleurs résultats en milieu dense, ce qui justifie son importante utilisation. A l’inverse, une simple corrélation distance/puissance est plus susceptible d’engendrer de lourdes imprécisions.
 
 
 
-\subsubsection{Comparatif des techniques}
+\subsection{Comparatif des techniques}
 
 Les méthodes précédemment décrites admettent des atouts et faiblesses justifiant leur emploi selon le contexte. Ces caractéristiques sont résumées dans le tableau suivant :
 
   \begin{figure}[H]
  	\centering
  	\includegraphics[width=1.1\linewidth]{Pics/tableau.PNG}
- 
- 	
- 	
- \end{figure}
-\end{itemize}
+  \end{figure}
+
 
 \section{Etude de l’existant }
 \subsection{L’entreprise française Polestar}
@@ -441,8 +416,12 @@ Cette entreprise utilise une approche de deep learning pour raffiner ses systèm
 « En 2017, L’aéroport Gatwick près de Londres en Angleterre a installé un système de « GPS intérieur » pour permettre aux voyageurs de trouver leur chemin dans ses terminaux grâce à leur téléphone multifonction. Environ 2000 balises communiquant en Bluetooth ont été installées au début de l’année sur une période de trois mois permettent ainsi d’indiquer une position géographique, à plus au moins trois mètres près. En comparaison, les points d’accès Wi-Fi, qui pourraient servir à localiser un téléphone, offrent une précision moindre, d’entre cinq et quinze mètres.\cite{WEBSITE:2}
 
 \subsection{Hypermarché Carrefour  Westfield Euralille Lille, France}
-Pour guider les consommateurs dans l'hypermarché, Carrefour Euralille a installé un système de géolocalisation en intérieur basé sur la lumière LED développé par Philips.
-Pour mettre en œuvre ce system, il a fallu équiper le magasin de 7 800 M² de 2,5 km de rails de LED. Il y a près de 800 luminaires dans le magasin, chacun d'entre eux envoie à travers la lumière un code détectable par la caméra du smartphone. C'est comme du morse ou du binaire qui communique avec des 0 et des 1.\cite{WEBSITE:3}
+L’hypermarché Carrefour Euralille a équipé ses locaux d’un système de géolocalisation interne à base de lumière pour mieux orienter les clients.
+Pour mettre en œuvre ce système, il a fallu équiper le magasin de 7 800 M² de 2,5 km de rails de LED. Il y a près de 800 luminaires dans le magasin, ce système fonctionne comme suite :
+
+Les LED font office de balises de localisation. Elles sont entreposées d’une minière dense et précise. Chaque LED représente une localisation, et peut communiquer sa position à l’application mobile de l’utilisateur. Les diodes émettent des fréquences de rayonnement qui sont détectées par les caméras des smartphones. Le décodage des signaux des signaux se fait de façon binaire, si le LED est allumé c’est un 1 s’il est éteint c’est un 0, et se base sur le principe  MIMO (Multiple Input, Multiple Output) qui permet de transférer des sur une grande distance et plus rapidement à travers des antennes d’un réseau de communication sans fil.
+
+Un tel système à l’avantage de pouvoir utiliser un système d’éclairage a base de LED déjà présent au sein de l’infrastructure.
 
 \section{Conclusion}
 
@@ -453,8 +432,7 @@ Nous allons maitre au point un système de localisation qui combine à la fois t
 
 \chapter{Méthodologie.}
 
-\section{Introduction}
-Dans ce chapitre nous parlerons des outils et matériel utilisé dans la mise au point d'un système de localisation en intérieur en général puis ont terminera avec une comparaison
+
 
 \noindent \begin{flushleft}
 	
@@ -1322,6 +1300,8 @@ Dans ce chapitre nous parlerons des outils et matériel utilisé dans la mise au
 
 \chapter{Outils et matériel}
 
+\section{Introduction}
+Dans ce chapitre nous parlerons des outils et matériel utilisé dans la mise au point d'un système de localisation en intérieur en général puis ont terminera avec une comparaison
 
 \noindent \begin{flushleft}
 	

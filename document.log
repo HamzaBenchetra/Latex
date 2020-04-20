@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.28)  19 APR 2020 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.28)  20 APR 2020 01:12
 entering extended mode
 **./document.tex
 (document.tex
@@ -869,7 +869,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.207 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
@@ -1013,7 +1013,7 @@ LaTeX Info: Redefining \nameref on input line 30.
 \@outlinefile=\write3
 \openout3 = `document.out'.
 
-<logo.jpg, id=267, 225.84375pt x 225.84375pt>
+<logo.jpg, id=279, 225.84375pt x 225.84375pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 34.
@@ -1068,7 +1068,7 @@ File: ujkpsyc.fd 2006/08/15 v1.0
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 ...ion comportementale}{32}{subsection.2.3.3}
+l.51 ...ption fonctionnelle}{24}{subsection.2.2.1}
                                                   % [1
 
 ])
@@ -1085,412 +1085,414 @@ l.53 ...ion comportementale}{32}{subsection.2.3.3}
 ] [4
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--77
+
+ []
+
+[5]
 Chapitre 1.
+[6
 
-Overfull \hbox (16.7595pt too wide) in paragraph at lines 67--68
-\T1/jkp/m/n/12 nou-velles tech-no-lo-gies de po-si-tion-ne-ment en in-té-rieur 
-peuvent être dé-ployé pour prendre
- []
-
-[5
-
-]
-Overfull \hbox (1.91173pt too wide) in paragraph at lines 94--95
-[]\T1/jkp/m/n/12 RTLS (Real-time lo-ca-ting sys-tems) est une tech-no-lo-gie de
- po-si-tion-ne-ment et d'iden-
- []
-
-[6]
-
-Package natbib Warning: Citation `wlan' on page 7 undefined on input line 115.
-
-[7] [8]
-Overfull \hbox (2.46434pt too wide) in paragraph at lines 171--172
-[]\T1/jkp/m/n/12 Ces sys-tèmes ont l'avan-tage d'être pra-ti-que-ment au-to-nom
-es en pré-sences des condi-
+] [7] [8]
+Overfull \hbox (5.98042pt too wide) in paragraph at lines 150--151
+[]\T1/jkp/m/n/12 Les tech-no-lo-gies met-tant à l'÷uvre des sys-tèmes de lo-ca-
+li-sa-tion \T1/jkp/m/it/12 in-door \T1/jkp/m/n/12 se dis-tinguent
  []
 
 
-Overfull \hbox (0.36438pt too wide) in paragraph at lines 174--175
-[]\T1/jkp/m/n/12 Les cap-teurs iner-tiels sont gé-né-ra-le-ment uti-li-sés en c
-om-bi-nai-son avec d'autres tech-
+Overfull \hbox (22.60109pt too wide) in paragraph at lines 156--157
+[]\T1/jkp/m/n/12  D'un autre côté, celles re-po-sant sur une in-fra-struc-ture
+ d'équi-pe-ments inter-connectés. 
  []
 
-
-Overfull \hbox (7.97177pt too wide) in paragraph at lines 191--192
-[]\T1/jkp/m/n/12 La pre-mière dé-marche s'ap-puie sur le prin-cipe de  Fin-ger
--prin-ting . Qui consiste
- []
-
-<Pics/position.png, id=470, 274.626pt x 291.489pt>
+[9]
+<Pics/position.png, id=492, 274.626pt x 291.489pt>
 File: Pics/position.png Graphic file (type png)
 <use Pics/position.png>
 Package pdftex.def Info: Pics/position.png  used on input line 195.
 (pdftex.def)             Requested size: 181.18439pt x 192.30771pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
-Overfull \hbox (5.07602pt too wide) in paragraph at lines 228--229
-[]\T1/jkp/m/n/12 Avec leurs ca-rac-té-ris-tiques im-pres-sion-nantes, les ondes
- ra-dio-fré-quences peuvent
- []
-
-[10 <./Pics/position.png>]
-<Pics/indoor.png, id=481, 334.851pt x 202.356pt>
+ [10 <./Pics/position.png>]
+<Pics/indoor.png, id=500, 334.851pt x 202.356pt>
 File: Pics/indoor.png Graphic file (type png)
 <use Pics/indoor.png>
-Package pdftex.def Info: Pics/indoor.png  used on input line 234.
+Package pdftex.def Info: Pics/indoor.png  used on input line 233.
 (pdftex.def)             Requested size: 362.37569pt x 218.99202pt.
-<Pics/architecture.PNG, id=482, 449.88075pt x 211.992pt>
+ [11 <./Pics/indoor.png>]
+<Pics/architecture.PNG, id=508, 449.88075pt x 211.992pt>
 File: Pics/architecture.PNG Graphic file (type png)
 <use Pics/architecture.PNG>
-Package pdftex.def Info: Pics/architecture.PNG  used on input line 245.
+Package pdftex.def Info: Pics/architecture.PNG  used on input line 244.
 (pdftex.def)             Requested size: 362.37569pt x 170.75832pt.
-
-Overfull \hbox (6.38852pt too wide) in paragraph at lines 255--256
-\T1/jkp/m/n/12 les an-tennes en-vi-ron-nantes, ce qui fa-ci-lite énor-mé-ment l
-a syn-chro-ni-sa-tion. Après
- []
-
-[11 <./Pics/indoor.png> <./Pics/architecture.PNG>]
-<Pics/techniques.PNG, id=489, 507.0945pt x 297.5115pt>
+<Pics/techniques.PNG, id=510, 507.0945pt x 297.5115pt>
 File: Pics/techniques.PNG Graphic file (type png)
 <use Pics/techniques.PNG>
-Package pdftex.def Info: Pics/techniques.PNG  used on input line 268.
+Package pdftex.def Info: Pics/techniques.PNG  used on input line 263.
 (pdftex.def)             Requested size: 452.9679pt x 265.7695pt.
- [12 <./Pics/techniques.PNG>]
-<Pics/technologies.PNG, id=496, 601.0455pt x 390.86024pt>
+ [12 <./Pics/architecture.PNG>]
+<Pics/technologies.PNG, id=519, 601.0455pt x 390.86024pt>
 File: Pics/technologies.PNG Graphic file (type png)
 <use Pics/technologies.PNG>
-Package pdftex.def Info: Pics/technologies.PNG  used on input line 287.
+Package pdftex.def Info: Pics/technologies.PNG  used on input line 282.
 (pdftex.def)             Requested size: 498.26744pt x 324.02625pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 287--288
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-[13 <./Pics/technologies.PNG>]
-<Pics/triangulation.PNG, id=502, 550.4565pt x 316.18124pt>
+[13 <./Pics/techniques.PNG>]
+<Pics/triangulation.PNG, id=525, 550.4565pt x 316.18124pt>
 File: Pics/triangulation.PNG Graphic file (type png)
 <use Pics/triangulation.PNG>
-Package pdftex.def Info: Pics/triangulation.PNG  used on input line 312.
-(pdftex.def)             Requested size: 226.48395pt x 130.08865pt.
-<Pics/trilateration.PNG, id=503, 327.624pt x 283.65974pt>
+Package pdftex.def Info: Pics/triangulation.PNG  used on input line 304.
+(pdftex.def)             Requested size: 407.66833pt x 234.16826pt.
+ [14 <./Pics/technologies.PNG>]
+<Pics/trilateration.PNG, id=531, 327.624pt x 283.65974pt>
 File: Pics/trilateration.PNG Graphic file (type png)
 <use Pics/trilateration.PNG>
-Package pdftex.def Info: Pics/trilateration.PNG  used on input line 334.
-(pdftex.def)             Requested size: 498.26744pt x 431.43996pt.
-
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 334--335
- [][] 
+Package pdftex.def Info: Pics/trilateration.PNG  used on input line 326.
+(pdftex.def)             Requested size: 271.7835pt x 235.33363pt.
+ [15 <./Pics/triangulation.PNG>]
+Overfull \hbox (1.42046pt too wide) in paragraph at lines 333--334
+[]\T1/jkp/m/n/12 l'inconvénient ma-jeur de cette tech-nique est que la syn-chro
+-ni-sa-tion entre les n÷uds
  []
 
-[14 <./Pics/triangulation.PNG>]
-<Pics/tdoa.PNG, id=511, 508.90125pt x 263.7855pt>
+
+Overfull \hbox (0.49643pt too wide) in paragraph at lines 340--343
+[]\T1/jkp/m/n/12 -Ensuite le dis-po-si-tif (\T1/jkp/m/it/12 tag\T1/jkp/m/n/12 )
+ émet ré-gu-liè-re-ment de courts mes-sages dif-fu-sés en \T1/jkp/m/it/12 broad
+-
+ []
+
+<Pics/tdoa.PNG, id=537, 508.90125pt x 263.7855pt>
 File: Pics/tdoa.PNG Graphic file (type png)
 <use Pics/tdoa.PNG>
-Package pdftex.def Info: Pics/tdoa.PNG  used on input line 358.
+Package pdftex.def Info: Pics/tdoa.PNG  used on input line 346.
 (pdftex.def)             Requested size: 498.26744pt x 258.28262pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 358--359
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 346--347
  [][] 
  []
 
-[15 <./Pics/trilateration.PNG>]
-Overfull \hbox (18.61139pt too wide) in paragraph at lines 369--370
+[16 <./Pics/trilateration.PNG>]
+Overfull \hbox (18.61139pt too wide) in paragraph at lines 358--360
 []\T1/jkp/m/n/12 ceux qui se basent sur une cor-res-pon-dance di-recte \T1/jkp/
 b/n/12 Puis-sance = fonc-tion(distance)\T1/jkp/m/n/12 .
  []
 
-<Pics/rss.PNG, id=519, 563.706pt x 286.671pt>
+<Pics/rss.PNG, id=545, 563.706pt x 286.671pt>
 File: Pics/rss.PNG Graphic file (type png)
 <use Pics/rss.PNG>
-Package pdftex.def Info: Pics/rss.PNG  used on input line 376.
+Package pdftex.def Info: Pics/rss.PNG  used on input line 363.
 (pdftex.def)             Requested size: 498.26744pt x 253.3998pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 376--377
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 363--364
  [][] 
  []
 
-[16 <./Pics/tdoa.PNG>]
-Overfull \hbox (12.86345pt too wide) in paragraph at lines 384--385
+[17 <./Pics/tdoa.PNG>]
+Overfull \hbox (12.86345pt too wide) in paragraph at lines 369--370
 []\T1/jkp/m/n/12 cette ca-té-go-rie né-ces-site la créa-tion d'un jeu de don-né
 e lors d'ini-tia-li-sa-tion,nommé
  []
 
-<Pics/sysRss.PNG, id=526, 305.34074pt x 176.45924pt>
+<Pics/sysRss.PNG, id=551, 305.34074pt x 176.45924pt>
 File: Pics/sysRss.PNG Graphic file (type png)
 <use Pics/sysRss.PNG>
-Package pdftex.def Info: Pics/sysRss.PNG  used on input line 392.
+Package pdftex.def Info: Pics/sysRss.PNG  used on input line 373.
 (pdftex.def)             Requested size: 226.48395pt x 130.89012pt.
-<Pics/sysRss2.PNG, id=527, 599.841pt x 287.27325pt>
+<Pics/sysRss2.PNG, id=552, 599.841pt x 287.27325pt>
 File: Pics/sysRss2.PNG Graphic file (type png)
 <use Pics/sysRss2.PNG>
-Package pdftex.def Info: Pics/sysRss2.PNG  used on input line 401.
+Package pdftex.def Info: Pics/sysRss2.PNG  used on input line 382.
 (pdftex.def)             Requested size: 498.26744pt x 238.63838pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 401--402
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
-[17 <./Pics/rss.PNG> <./Pics/sysRss.PNG>]
-<Pics/tableau.PNG, id=534, 566.115pt x 403.5075pt>
+[18 <./Pics/rss.PNG> <./Pics/sysRss.PNG>]
+<Pics/tableau.PNG, id=560, 566.115pt x 403.5075pt>
 File: Pics/tableau.PNG Graphic file (type png)
 <use Pics/tableau.PNG>
-Package pdftex.def Info: Pics/tableau.PNG  used on input line 426.
+Package pdftex.def Info: Pics/tableau.PNG  used on input line 404.
 (pdftex.def)             Requested size: 498.26744pt x 355.15543pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 426--427
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 404--405
  [][] 
  []
 
-[18 <./Pics/sysRss2.PNG>] [19 <./Pics/tableau.PNG>]
+[19 <./Pics/sysRss2.PNG>] [20 <./Pics/tableau.PNG>]
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 4
-45.
+20.
 
 ("C:\Users\Hamza Benchetra\AppData\Roaming\MiKTeX\2.9\tex/latex/kpfonts\ts1jkp.
 fd"
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [20]
+) [21]
 Chapitre 2.
-[21
+[22
 
-] [22]
-<image1.png, id=578, 581.92406pt x 325.96782pt>
+] [23]
+<image1.png, id=604, 581.92406pt x 325.96782pt>
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 646.
+Package pdftex.def Info: image1.png  used on input line 624.
 (pdftex.def)             Requested size: 362.37569pt x 202.98827pt.
-<Capture.png, id=579, 622.57594pt x 289.83281pt>
+<Capture.png, id=605, 622.57594pt x 289.83281pt>
 File: Capture.png Graphic file (type png)
 <use Capture.png>
-Package pdftex.def Info: Capture.png  used on input line 656.
+Package pdftex.def Info: Capture.png  used on input line 634.
 (pdftex.def)             Requested size: 362.37569pt x 168.70016pt.
- [23 <./image1.png>] [24 <./Capture.png>]
-<image6.png, id=605, 608.2725pt x 337.26pt>
+ [24 <./image1.png>] [25 <./Capture.png>]
+<image6.png, id=626, 608.2725pt x 337.26pt>
 File: image6.png Graphic file (type png)
 <use image6.png>
-Package pdftex.def Info: image6.png  used on input line 708.
+Package pdftex.def Info: image6.png  used on input line 686.
 (pdftex.def)             Requested size: 362.37569pt x 200.92693pt.
-<Capture2.png, id=606, 572.1375pt x 338.01282pt>
+<Capture2.png, id=627, 572.1375pt x 338.01282pt>
 File: Capture2.png Graphic file (type png)
 <use Capture2.png>
-Package pdftex.def Info: Capture2.png  used on input line 732.
+Package pdftex.def Info: Capture2.png  used on input line 710.
 (pdftex.def)             Requested size: 362.37569pt x 214.08904pt.
- [25 <./image6.png>]
-<image11.png, id=616, 618.05907pt x 184.43906pt>
+ [26 <./image6.png>]
+<image11.png, id=637, 618.05907pt x 184.43906pt>
 File: image11.png Graphic file (type png)
 <use image11.png>
-Package pdftex.def Info: image11.png  used on input line 774.
+Package pdftex.def Info: image11.png  used on input line 752.
 (pdftex.def)             Requested size: 362.37569pt x 108.14265pt.
- [26 <./Capture2.png> <./image11.png>]
-<image12.png, id=624, 590.95781pt x 237.13594pt>
+ [27 <./Capture2.png> <./image11.png>]
+<image12.png, id=645, 590.95781pt x 237.13594pt>
 File: image12.png Graphic file (type png)
 <use image12.png>
-Package pdftex.def Info: image12.png  used on input line 807.
+Package pdftex.def Info: image12.png  used on input line 785.
 (pdftex.def)             Requested size: 362.37569pt x 145.41618pt.
-<image13.png, id=625, 566.86781pt x 319.1925pt>
+<image13.png, id=646, 566.86781pt x 319.1925pt>
 File: image13.png Graphic file (type png)
 <use image13.png>
-Package pdftex.def Info: image13.png  used on input line 833.
+Package pdftex.def Info: image13.png  used on input line 811.
 (pdftex.def)             Requested size: 362.37569pt x 204.05357pt.
- [27 <./image12.png>]
+ [28 <./image12.png>]
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with pdftex drive
-r on input line 845.
-<image14.png, id=631, 15.05624pt x 14.30344pt>
+r on input line 823.
+<image14.png, id=652, 15.05624pt x 14.30344pt>
 File: image14.png Graphic file (type png)
 <use image14.png>
-Package pdftex.def Info: image14.png  used on input line 845.
+Package pdftex.def Info: image14.png  used on input line 823.
 (pdftex.def)             Requested size: 15.17735pt x 14.45413pt.
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with pdftex drive
-r on input line 847.
-<image15.png, id=633, 15.05624pt x 14.30344pt>
+r on input line 825.
+<image15.png, id=654, 15.05624pt x 14.30344pt>
 File: image15.png Graphic file (type png)
 <use image15.png>
-Package pdftex.def Info: image15.png  used on input line 847.
+Package pdftex.def Info: image15.png  used on input line 825.
 (pdftex.def)             Requested size: 15.17735pt x 14.45413pt.
 
-Overfull \hbox (18.85136pt too wide) in paragraph at lines 851--852
+Overfull \hbox (18.85136pt too wide) in paragraph at lines 829--830
 []\T1/jkp/m/n/12 une en-trée/sortie vé-hi-cu-lant des in-for-ma-tions (ou des o
 rdres) lo-giques/numériques
  []
 
-<image16.png, id=635, 140.02313pt x 117.43875pt>
+<image16.png, id=656, 140.02313pt x 117.43875pt>
 File: image16.png Graphic file (type png)
 <use image16.png>
-Package pdftex.def Info: image16.png  used on input line 876.
+Package pdftex.def Info: image16.png  used on input line 854.
 (pdftex.def)             Requested size: 181.18439pt x 151.96788pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./image14.png> <./image15.png> <./image13.png>]
-<image17.png, id=646, 421.575pt x 249.93375pt>
+[29 <./image14.png> <./image15.png> <./image13.png>]
+<image17.png, id=667, 421.575pt x 249.93375pt>
 File: image17.png Graphic file (type png)
 <use image17.png>
-Package pdftex.def Info: image17.png  used on input line 893.
+Package pdftex.def Info: image17.png  used on input line 871.
 (pdftex.def)             Requested size: 362.37569pt x 214.83968pt.
- [29 <./image16.png> <./image17.png>]
-<image18.png, id=653, 385.44pt x 255.95625pt>
+ [30 <./image16.png> <./image17.png>]
+<image18.png, id=675, 385.44pt x 255.95625pt>
 File: image18.png Graphic file (type png)
 <use image18.png>
-Package pdftex.def Info: image18.png  used on input line 924.
+Package pdftex.def Info: image18.png  used on input line 902.
 (pdftex.def)             Requested size: 362.37569pt x 240.63795pt.
-<Capture3.png, id=654, 533.74406pt x 350.05782pt>
+<Capture3.png, id=676, 533.74406pt x 350.05782pt>
 File: Capture3.png Graphic file (type png)
 <use Capture3.png>
-Package pdftex.def Info: Capture3.png  used on input line 940.
+Package pdftex.def Info: Capture3.png  used on input line 918.
 (pdftex.def)             Requested size: 362.37569pt x 237.67293pt.
- [30 <./image18.png>] [31 <./Capture3.png>]
-<image21.png, id=665, 542.77782pt x 158.09062pt>
+ [31 <./image18.png>] [32 <./Capture3.png>]
+<image21.png, id=686, 542.77782pt x 158.09062pt>
 File: image21.png Graphic file (type png)
 <use image21.png>
-Package pdftex.def Info: image21.png  used on input line 981.
+Package pdftex.def Info: image21.png  used on input line 959.
 (pdftex.def)             Requested size: 362.37569pt x 105.55107pt.
- [32 <./image21.png>]
-<image22.png, id=671, 417.05812pt x 70.76437pt>
+ [33 <./image21.png>]
+<image22.png, id=692, 417.05812pt x 70.76437pt>
 File: image22.png Graphic file (type png)
 <use image22.png>
-Package pdftex.def Info: image22.png  used on input line 989.
+Package pdftex.def Info: image22.png  used on input line 967.
 (pdftex.def)             Requested size: 362.37569pt x 61.4889pt.
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with pdftex drive
-r on input line 1008.
-<image23.png, id=672, 246.9225pt x 216.05719pt>
+r on input line 986.
+<image23.png, id=693, 246.9225pt x 216.05719pt>
 File: image23.png Graphic file (type png)
 <use image23.png>
-Package pdftex.def Info: image23.png  used on input line 1008.
+Package pdftex.def Info: image23.png  used on input line 986.
 (pdftex.def)             Requested size: 229.82098pt x 200.91306pt.
-<image24.png, id=674, 590.205pt x 345.54094pt>
+<image24.png, id=695, 590.205pt x 345.54094pt>
 File: image24.png Graphic file (type png)
 <use image24.png>
-Package pdftex.def Info: image24.png  used on input line 1039.
+Package pdftex.def Info: image24.png  used on input line 1017.
 (pdftex.def)             Requested size: 362.37569pt x 212.16106pt.
 
-[33 <./image23.png> <./image22.png>]
-<image25.png, id=685, 563.10374pt x 286.06876pt>
+[34 <./image23.png> <./image22.png>]
+<image25.png, id=706, 563.10374pt x 286.06876pt>
 File: image25.png Graphic file (type png)
 <use image25.png>
-Package pdftex.def Info: image25.png  used on input line 1057.
+Package pdftex.def Info: image25.png  used on input line 1035.
 (pdftex.def)             Requested size: 362.37569pt x 184.09607pt.
- [34 <./image24.png> <./image25.png>]
-<image26.png, id=690, 286.671pt x 211.38976pt>
+ [35 <./image24.png> <./image25.png>]
+<image26.png, id=711, 286.671pt x 211.38976pt>
 File: image26.png Graphic file (type png)
 <use image26.png>
-Package pdftex.def Info: image26.png  used on input line 1093.
+Package pdftex.def Info: image26.png  used on input line 1071.
 (pdftex.def)             Requested size: 362.37569pt x 267.2266pt.
 
-[35 <./image26.png>]
-<image27.png, id=696, 374.14781pt x 249.93375pt>
+[36 <./image26.png>]
+<image27.png, id=718, 374.14781pt x 249.93375pt>
 File: image27.png Graphic file (type png)
 <use image27.png>
-Package pdftex.def Info: image27.png  used on input line 1145.
+Package pdftex.def Info: image27.png  used on input line 1123.
 (pdftex.def)             Requested size: 362.37569pt x 242.08076pt.
- [36]
-<image28.png, id=703, 395.97937pt x 240.9pt>
+ [37]
+<image28.png, id=724, 395.97937pt x 240.9pt>
 File: image28.png Graphic file (type png)
 <use image28.png>
-Package pdftex.def Info: image28.png  used on input line 1168.
+Package pdftex.def Info: image28.png  used on input line 1146.
 (pdftex.def)             Requested size: 362.37569pt x 220.46176pt.
- [37 <./image27.png>]
-<image29.png, id=710, 527.72156pt x 353.82187pt>
+ [38 <./image27.png>]
+<image29.png, id=731, 527.72156pt x 353.82187pt>
 File: image29.png Graphic file (type png)
 <use image29.png>
-Package pdftex.def Info: image29.png  used on input line 1190.
+Package pdftex.def Info: image29.png  used on input line 1168.
 (pdftex.def)             Requested size: 362.37569pt x 242.96039pt.
- [38 <./image28.png> <./image29.png>] [39]
-<image30.png, id=738, 432.11438pt x 252.945pt>
+ [39 <./image28.png> <./image29.png>] [40]
+<image30.png, id=759, 432.11438pt x 252.945pt>
 File: image30.png Graphic file (type png)
 <use image30.png>
-Package pdftex.def Info: image30.png  used on input line 1318.
+Package pdftex.def Info: image30.png  used on input line 1296.
 (pdftex.def)             Requested size: 362.37569pt x 212.12885pt.
- [40 <./image30.png>]
+ [41 <./image30.png>]
 Chapitre 3.
-<image31.jpg, id=748, 452.69125pt x 263.98625pt>
+<image31.jpg, id=769, 452.69125pt x 263.98625pt>
 File: image31.jpg Graphic file (type jpg)
 <use image31.jpg>
-Package pdftex.def Info: image31.jpg  used on input line 1350.
+Package pdftex.def Info: image31.jpg  used on input line 1330.
 (pdftex.def)             Requested size: 362.37569pt x 211.31818pt.
-[41
+[42
 
- <./image31.jpg>]
-<image32.jpg, id=753, 451.6875pt x 324.21124pt>
+]
+<image32.jpg, id=775, 451.6875pt x 324.21124pt>
 File: image32.jpg Graphic file (type jpg)
 <use image32.jpg>
-Package pdftex.def Info: image32.jpg  used on input line 1392.
+Package pdftex.def Info: image32.jpg  used on input line 1372.
 (pdftex.def)             Requested size: 362.37569pt x 260.12129pt.
- [42 <./image32.jpg>] [43] [44] [45] [46]
-Underfull \hbox (badness 7667) in paragraph at lines 1722--1722
+ [43 <./image31.jpg>] [44 <./image32.jpg>] [45] [46] [47] [48]
+Underfull \hbox (badness 7667) in paragraph at lines 1702--1702
 \T1/jkp/m/n/12 Grand nombre de pé-ri-phé-
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 1722--1722
+Underfull \hbox (badness 8094) in paragraph at lines 1702--1702
 \T1/jkp/m/n/12 faible coût Pro-ces-seur DSP
  []
 
-[47]
-<image33.jpg, id=804, 404.26031pt x 352.31625pt>
+[49]
+<image33.jpg, id=829, 404.26031pt x 352.31625pt>
 File: image33.jpg Graphic file (type jpg)
 <use image33.jpg>
-Package pdftex.def Info: image33.jpg  used on input line 1799.
+Package pdftex.def Info: image33.jpg  used on input line 1779.
 (pdftex.def)             Requested size: 362.37569pt x 315.81834pt.
- [48] [49 <./image33.jpg>]
-Overfull \hbox (2.63853pt too wide) in paragraph at lines 1856--1857
+ [50] [51 <./image33.jpg>]
+Overfull \hbox (2.63853pt too wide) in paragraph at lines 1836--1837
 \T1/jkp/m/n/12 male. Une carte SD avec un sys-tème d'ex-ploi-ta-tion (OS) ins-t
 allé est re-quise pour l'amor-
  []
 
-<phpstorm.png, id=814, 2007.5pt x 2007.5pt>
+<phpstorm.png, id=838, 2007.5pt x 2007.5pt>
 File: phpstorm.png Graphic file (type png)
 <use phpstorm.png>
-Package pdftex.def Info: phpstorm.png  used on input line 1876.
+Package pdftex.def Info: phpstorm.png  used on input line 1856.
 (pdftex.def)             Requested size: 135.89174pt x 135.8833pt.
-[50]
-<android.png, id=819, 1204.5pt x 1204.5pt>
+[52]
+<android.png, id=843, 1204.5pt x 1204.5pt>
 File: android.png Graphic file (type png)
 <use android.png>
-Package pdftex.def Info: android.png  used on input line 1884.
+Package pdftex.def Info: android.png  used on input line 1864.
 (pdftex.def)             Requested size: 135.89174pt x 135.87717pt.
-<php.png, id=820, 1204.5pt x 650.43pt>
+<php.png, id=844, 1204.5pt x 650.43pt>
 File: php.png Graphic file (type png)
 <use php.png>
-Package pdftex.def Info: php.png  used on input line 1894.
+Package pdftex.def Info: php.png  used on input line 1874.
 (pdftex.def)             Requested size: 135.89174pt x 73.37367pt.
 
-Overfull \hbox (7.03563pt too wide) in paragraph at lines 1890--1897
+Overfull \hbox (7.03563pt too wide) in paragraph at lines 1870--1877
 []\T1/jkp/m/n/12 HP : Hy-per-text Pre-pro-ces-sor5, plus connu sous son sigle P
 HP (sigle auto-référentiel),
  []
 
-<js.png, id=821, 1204.5pt x 1204.5pt>
+<js.png, id=845, 1204.5pt x 1204.5pt>
 File: js.png Graphic file (type png)
 <use js.png>
-Package pdftex.def Info: js.png  used on input line 1903.
+Package pdftex.def Info: js.png  used on input line 1883.
 (pdftex.def)             Requested size: 135.89174pt x 135.87717pt.
-[51 <./phpstorm.png> <./android.png> <./php.png>]
-<html.png, id=829, 1204.5pt x 1204.5pt>
+[53 <./phpstorm.png> <./android.png> <./php.png>]
+<html.png, id=853, 1204.5pt x 1204.5pt>
 File: html.png Graphic file (type png)
 <use html.png>
-Package pdftex.def Info: html.png  used on input line 1916.
+Package pdftex.def Info: html.png  used on input line 1896.
 (pdftex.def)             Requested size: 135.89174pt x 135.87717pt.
- [52 <./js.png>]
-<java.png, id=834, 1204.5pt x 2242.3775pt>
+ [54 <./js.png>]
+<java.png, id=859, 1204.5pt x 2242.3775pt>
 File: java.png Graphic file (type png)
 <use java.png>
-Package pdftex.def Info: java.png  used on input line 1927.
+Package pdftex.def Info: java.png  used on input line 1907.
 (pdftex.def)             Requested size: 135.89174pt x 252.95801pt.
- [53 <./html.png> <./java.png>]
-<css.png, id=841, 1204.5pt x 1699.34875pt>
+ [55 <./html.png> <./java.png>]
+<css.png, id=866, 1204.5pt x 1699.34875pt>
 File: css.png Graphic file (type png)
 <use css.png>
-Package pdftex.def Info: css.png  used on input line 1940.
+Package pdftex.def Info: css.png  used on input line 1920.
 (pdftex.def)             Requested size: 135.89174pt x 191.70004pt.
-<xampp.jpg, id=842, 770.88pt x 578.16pt>
+<xampp.jpg, id=867, 770.88pt x 578.16pt>
 File: xampp.jpg Graphic file (type jpg)
 <use xampp.jpg>
-Package pdftex.def Info: xampp.jpg  used on input line 1949.
+Package pdftex.def Info: xampp.jpg  used on input line 1929.
 (pdftex.def)             Requested size: 135.89174pt x 101.91173pt.
- [54 <./css.png>] [55 <./xampp.jpg>] (document.bbl
+ [56 <./css.png>] [57 <./xampp.jpg>] (document.bbl
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
 9.
 
@@ -1527,27 +1529,24 @@ sation-[]par-[]led$[]\T1/jkp/m/n/12 .
  []
 
 )
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1958.
-[56
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1938.
+ [58
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1958.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1938.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1958.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1958.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1938.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1938.
 
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 671D7487FBD18BFD6AD5F5EFFC83F4BE;4956.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1958.
+(rerunfilecheck)             Checksum: 898831DF6BC93FD147003C13ECE11171;5270.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1938.
  ) 
 Here is how much of TeX's memory you used:
- 11458 strings out of 481556
- 163228 string characters out of 2923602
- 436511 words of memory out of 3000000
- 26125 multiletter control sequences out of 15000+200000
+ 11470 strings out of 481556
+ 163398 string characters out of 2923602
+ 435514 words of memory out of 3000000
+ 26128 multiletter control sequences out of 15000+200000
  651731 words of font info for 132 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,35p,1632b,628s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1559,16 +1558,17 @@ lic/kpfonts/jkpbn8a.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/public/kpfonts/jkpbne.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/M
 iKTeX/2.9/fonts/type1/public/kpfonts/jkpmi.pfb><C:/Users/Hamza Benchetra/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmit8a.pfb><C:/Users/Hamza Be
-nchetra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/U
+nchetra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpmite.pfb><C:/U
 sers/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpm
-ne.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
-kpfonts/jkpmsc8a.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/kpfonts/jkpsy.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTe
-X/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/Hamza Benchetra/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on document.pdf (57 pages, 3730318 bytes).
+n8a.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
+/kpfonts/jkpmne.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/kpfonts/jkpmsc8a.pfb><C:/Users/Hamza Benchetra/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/public/kpfonts/jkpsy.pfb><C:/Users/Hamza Benchetra/AppData/
+Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpsya.pfb><C:/Users/Hamza Benche
+tra/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on document.pdf (59 pages, 3739517 bytes).
 PDF statistics:
- 965 PDF objects out of 1000 (max. 8388607)
- 276 named destinations out of 1000 (max. 500000)
- 782 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 996 PDF objects out of 1000 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
+ 806 words of extra memory for PDF output out of 10000 (max. 10000000)
 
